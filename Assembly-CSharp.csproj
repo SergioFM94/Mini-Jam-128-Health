@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Util\Animation\Easing\EaseInOut4.cs" />
     <Compile Include="Assets\Scripts\Util\PointService.cs" />
+    <Compile Include="Assets\Scripts\Components\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\Entities\UI\PanelSelector.cs" />
     <Compile Include="Assets\Scripts\Util\Animation\Easing\EaseIn4.cs" />
     <Compile Include="Assets\Scripts\Util\Animation\Easing\EaseOut3.cs" />
@@ -87,7 +88,6 @@
     <Compile Include="Assets\Scripts\Util\Animation\Easing\EaseIn3.cs" />
     <Compile Include="Assets\Scripts\Util\Extensions\Rigidbody2DExtensions.cs" />
     <Compile Include="Assets\Scripts\Entities\UI\ExitGame.cs" />
-    <Compile Include="Assets\Scripts\Components\PlayerMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Audio\kenney\License.txt" />
