@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5818FC16-852A-94DB-6A60-52CAE99D45F4}</ProjectGuid>
+    <ProjectGuid>{BBBBFA2E-917D-BE6B-11F3-046EFDB8C89B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\Util\Animation\Easing\EaseIn3.cs" />
     <Compile Include="Assets\Scripts\Util\Extensions\Rigidbody2DExtensions.cs" />
     <Compile Include="Assets\Scripts\Entities\UI\ExitGame.cs" />
+    <Compile Include="Assets\Scripts\Components\PlayerMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Audio\kenney\License.txt" />
@@ -815,7 +816,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{E1649DDD-0208-D45A-0B9B-2A26EEA7DB3D}</Project>
+      <Project>{F8C9C5B2-9709-CE4B-3293-E0233150253B}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
