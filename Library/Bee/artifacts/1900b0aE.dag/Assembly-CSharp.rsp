@@ -29,6 +29,7 @@
 -define:PLATFORM_ARCH_64
 -define:UNITY_64
 -define:UNITY_INCLUDE_TESTS
+-define:UNITY_ANALYTICS
 -define:USE_SEARCH_ENGINE_API
 -define:USE_SEARCH_TABLE
 -define:USE_SEARCH_MODULE
@@ -333,6 +334,8 @@
 -r:"C:/Users/Sergio/Desktop/mini-jam-128-Health/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
@@ -361,8 +364,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityStub.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Stores.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/FollowCamera.cs"
+"Assets/LockCamera.cs"
+"Assets/Scripts/Components/MoveLava.cs"
 "Assets/Scripts/Components/OnObjectEnable.cs"
 "Assets/Scripts/Components/PlayerMove.cs"
+"Assets/Scripts/Components/SpawnPlataformas.cs"
 "Assets/Scripts/Config/MasterInstaller.cs"
 "Assets/Scripts/Config/PauseableSceneInstaller.cs"
 "Assets/Scripts/Entities/UI/ExitGame.cs"
